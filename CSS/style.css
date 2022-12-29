@@ -609,7 +609,7 @@ body {
 }
 
 .blog__item {
-	width: 400px;
+	width: 379px;
 	height: fit-content;
 	display: block;
 	flex-shrink: 0;
@@ -1034,14 +1034,16 @@ body {
 	.footer {
 		height: auto;
 	}
+	.footer .logo {
+		margin-bottom: 2em;
+	}
 	.footer-menu {
-		justify-content: space-around;
+		flex-direction: column;
 		padding: 2em 0px;
 	}
 	.footer-menu__list {
 		display: flex;
 		flex-direction: column;
-		align-items: baseline;
 		width: auto;
 	}
 	.footer-menu__list li {
